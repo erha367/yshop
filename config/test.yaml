@@ -1,0 +1,13 @@
+# config.yaml
+app:
+  name: my-golang-app
+  port: 8088
+  debug: true
+
+mysql: user:password@tcp(localhost:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local
+
+sqlite: /Users/yangsen13/waibao/yshop/yshop.db
+
+logging:
+  level: info
+  format: json
